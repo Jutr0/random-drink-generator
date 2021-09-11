@@ -33,9 +33,6 @@
 	&::before {
 		width: 4px;
 	}
-	&::after {
-		top: -13px;
-	}
 	&::before {
 		top: -7px;
 	}
@@ -46,54 +43,37 @@
 	&::before {
 		width: 5px;
 	}
-	&::after {
-		top: -13px;
-	}
+
 	&::before {
 		top: -6px;
 	}
 }
-.arrow-w24 {
-	width: 24px;
+
+@mixin arrowWidth($widthVal) {
+	width: $widthVal;
 	&::after,
 	&::before {
-		left: 20px;
+		left: $widthVal - 4;
 	}
+}
+
+.arrow-w24 {
+	@include arrowWidth(24px);
 }
 .arrow-w32 {
-	width: 32px;
-	&::after,
-	&::before {
-		left: 28px;
-	}
+	@include arrowWidth(32px);
 }
 .arrow-w40 {
-	width: 40px;
-	&::after,
-	&::before {
-		left: 36px;
-	}
+	@include arrowWidth(40px);
 }
 .arrow-w48 {
-	width: 48px;
-	&::after,
-	&::before {
-		left: 44px;
-	}
+	@include arrowWidth(48px);
 }
 .arrow-w56 {
-	width: 56px;
-	&::after,
-	&::before {
-		left: 52px;
-	}
+	@include arrowWidth(56px);
 }
 .arrow-w64 {
-	width: 64px;
-	&::after,
-	&::before {
-		left: 60px;
-	}
+	@include arrowWidth(64px);
 }
 
 .arrow-up {
