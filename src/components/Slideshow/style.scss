@@ -1,0 +1,50 @@
+@import '../../utils/variables/colors';
+
+.slideshow {
+	height: 100vh;
+	width: 100%;
+	background-image: url('../../images/slideshow1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	color: $color-fifth;
+}
+.ss-bottomInfo {
+	display: flex;
+	padding: 40px 16px;
+	padding-top: 50px;
+	align-items: flex-end;
+	justify-content: space-between;
+	width: 100%;
+	background: linear-gradient(
+		to top,
+		rgba($color-primary, 0.8) 0%,
+		transparent 100%
+	);
+}
+.ss-left {
+	display: flex;
+	align-items: center;
+	.tryDrinkGroup {
+		padding: 16px;
+		.tryDrinkText {
+			margin-bottom: 16px;
+		}
+	}
+}
+
+.goDownButton {
+	width: 32px;
+	height: 80px;
+	border: $color-fifth solid 2px;
+	border-radius: 3px;
+	background: transparent;
+	display: flex;
+	align-items: flex-start;
+	padding-top: 20px;
+	justify-content: center;
+}

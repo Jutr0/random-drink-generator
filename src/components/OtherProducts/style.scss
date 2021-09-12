@@ -1,0 +1,32 @@
+@import '../../utils/variables/colors';
+
+.op-background {
+	padding: 128px 16px;
+	background: $color-primary;
+	color: $color-fifth;
+	.op-image {
+		width: 128px;
+		height: 256px;
+		background-image: url('../../images/moreDrink1.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: contain;
+	}
+	.op-product {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		max-width: 128px;
+		height: auto;
+		flex-direction: column;
+		cursor: pointer;
+	}
+	.op-productsContainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.op-text {
+		font-size: 2rem;
+	}
+}

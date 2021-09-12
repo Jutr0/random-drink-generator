@@ -6,9 +6,11 @@ const Arrow = ({
 	thickness = 'normal',
 }: IProps) => {
 	return (
-		<div
-			className={`arrow arrow-${direction} arrow-${thickness} arrow-w${width}`}
-		></div>
+		<div className="arrowContainer">
+			<div
+				className={`arrow arrow-${direction} arrow-${thickness} arrow-w${width}`}
+			></div>
+		</div>
 	);
 };
 

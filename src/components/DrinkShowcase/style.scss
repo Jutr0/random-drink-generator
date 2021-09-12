@@ -1,0 +1,54 @@
+@import '../../utils/variables/colors';
+
+.ds-background {
+	height: 100vh;
+	background-color: $color-third;
+	flex-direction: column;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 64px 16px;
+	color: $color-fifth;
+	a {
+		flex-direction: column;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.ds-name {
+		font-size: 3rem;
+		font-weight: 700;
+		letter-spacing: -2px;
+	}
+	.ds-image {
+		height: 60vh;
+		width: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-image: url('../../images/moreDrink5.png');
+	}
+	.ds-randomButton {
+		height: 64px;
+		width: 60vw;
+		font-size: 2rem;
+		font-weight: 700;
+		color: $color-fifth;
+		background-color: $color-secondary;
+		border: none;
+		border-radius: 3px;
+		&:active {
+			background-color: darken($color: $color-secondary, $amount: 5);
+		}
+		&:hover {
+			background-color: lighten($color: $color-secondary, $amount: 5);
+			cursor: pointer;
+		}
+	}
+}
+
+a {
+	text-decoration: none;
+	color: $color-fifth;
+}
