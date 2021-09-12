@@ -1,0 +1,18 @@
+<svg width="49" height="37" viewBox="0 0 49 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="LOGO">
+<rect id="O" x="42.5317" y="19.583" width="9.80055" height="14.4007" rx="2" transform="rotate(70.3487 42.5317 19.583)" stroke="white" stroke-width="4"/>
+<g id="G">
+<path id="Line 5" d="M27.1502 11.6939C26.0945 12.0188 25.502 13.1379 25.8269 14.1937C26.1518 15.2494 27.271 15.8418 28.3267 15.517L27.1502 11.6939ZM32.7234 14.164L34.6349 13.5758L33.4585 9.7527L31.5469 10.3409L32.7234 14.164ZM28.3267 15.517L32.7234 14.164L31.5469 10.3409L27.1502 11.6939L28.3267 15.517Z" fill="white"/>
+<path id="Line 7" d="M23 19.0215L33.4881 16.6492" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line id="Line 8" x1="19.4998" y1="7.40382" x2="23.0587" y2="18.9693" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<line id="Line 9" x1="19.3233" y1="6.58074" x2="28.6904" y2="3.69827" stroke="white" stroke-width="4" stroke-linecap="round"/>
+<path id="Line 10" d="M27.5 4.02155L30 4.02153L31.9328 8.70492" stroke="white" stroke-width="4"/>
+<path id="Line 11" d="M31.7353 11.287L33.5 17.0216" stroke="white" stroke-width="4"/>
+</g>
+<rect id="O_2" x="6.12256" y="19.7914" width="9.80055" height="14.4007" rx="2" transform="rotate(-28.3566 6.12256 19.7914)" stroke="white" stroke-width="4"/>
+<g id="L">
+<line id="Line 3" x1="2" y1="18.395" x2="2" y2="36.7958" stroke="white" stroke-width="4"/>
+<line id="Line 4" y1="34.7957" x2="11.5005" y2="34.7957" stroke="white" stroke-width="4"/>
+</g>
+</g>
+</svg>

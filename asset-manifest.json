@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/random-drink-generator/static/css/main.4ce80158.chunk.css",
+    "main.js": "/random-drink-generator/static/js/main.fda56144.chunk.js",
+    "main.js.map": "/random-drink-generator/static/js/main.fda56144.chunk.js.map",
+    "runtime-main.js": "/random-drink-generator/static/js/runtime-main.3d8750cf.js",
+    "runtime-main.js.map": "/random-drink-generator/static/js/runtime-main.3d8750cf.js.map",
+    "static/js/2.4f03b742.chunk.js": "/random-drink-generator/static/js/2.4f03b742.chunk.js",
+    "static/js/2.4f03b742.chunk.js.map": "/random-drink-generator/static/js/2.4f03b742.chunk.js.map",
+    "index.html": "/random-drink-generator/index.html",
+    "static/css/main.4ce80158.chunk.css.map": "/random-drink-generator/static/css/main.4ce80158.chunk.css.map",
+    "static/js/2.4f03b742.chunk.js.LICENSE.txt": "/random-drink-generator/static/js/2.4f03b742.chunk.js.LICENSE.txt",
+    "static/media/gallery1.f372eb80.jpg": "/random-drink-generator/static/media/gallery1.f372eb80.jpg",
+    "static/media/gallery2.dd7d9bb6.jpg": "/random-drink-generator/static/media/gallery2.dd7d9bb6.jpg",
+    "static/media/gallery3.006f4abd.jpg": "/random-drink-generator/static/media/gallery3.006f4abd.jpg",
+    "static/media/gallery4.143e8746.jpg": "/random-drink-generator/static/media/gallery4.143e8746.jpg",
+    "static/media/gallery5.d98dd90f.jpg": "/random-drink-generator/static/media/gallery5.d98dd90f.jpg",
+    "static/media/hamburger.970c7a6f.svg": "/random-drink-generator/static/media/hamburger.970c7a6f.svg",
+    "static/media/logo.3a96b926.svg": "/random-drink-generator/static/media/logo.3a96b926.svg",
+    "static/media/style.scss": "/random-drink-generator/static/media/slideshow1.0c54b58e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3d8750cf.js",
+    "static/js/2.4f03b742.chunk.js",
+    "static/css/main.4ce80158.chunk.css",
+    "static/js/main.fda56144.chunk.js"
+  ]
+}
