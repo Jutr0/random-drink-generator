@@ -6,4 +6,10 @@ export interface IDrink {
 	strGlass?: string;
 	strInstructions?: string;
 	strDrinkThumb?: string;
+	ingredients?: IIngredient[];
+}
+
+export interface IIngredient {
+	name: string;
+	measure: string;
 }

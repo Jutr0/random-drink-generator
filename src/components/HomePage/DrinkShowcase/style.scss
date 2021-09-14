@@ -1,4 +1,4 @@
-@import '../../utils/variables/colors';
+@import '../../../utils/variables/colors';
 
 .ds-background {
 	height: 100vh;
@@ -27,7 +27,7 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: contain;
-		background-image: url('../../images/moreDrink5.png');
+		background-image: url('../../../images/moreDrink5.png');
 	}
 	.ds-randomButton {
 		height: 64px;

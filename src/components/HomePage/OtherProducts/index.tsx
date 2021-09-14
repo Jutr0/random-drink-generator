@@ -1,5 +1,6 @@
-import Arrow from '../Arrow';
+import Arrow from '../../Arrow';
 import OtherProduct from './OtherProduct';
+import { OTHER_PRODUCTS_IMAGES } from '../../../utils/constants';
 
 import './style.scss';
 
@@ -8,10 +9,9 @@ const OtherProducts = () => {
 		<section className="op-background">
 			<span className="op-text">Poznaj nasze inne produkty</span>
 			<div className="op-productsContainer">
-				<OtherProduct />
-				<OtherProduct />
-				<OtherProduct />
-				<OtherProduct />
+				{OTHER_PRODUCTS_IMAGES.map((step) => (
+					<OtherProduct image={step} />
+				))}
 			</div>
 		</section>
 	);

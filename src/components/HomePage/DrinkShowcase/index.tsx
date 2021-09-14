@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import useRandomDrink from '../../hooks/useRandomDrink';
-import { IDrink } from '../../interfaces/drink';
+import useRandomDrink from '../../../hooks/useRandomDrink';
+import { IDrink } from '../../../interfaces/drink';
 import './style.scss';
 
 const DrinkShowcase = () => {

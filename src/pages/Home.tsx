@@ -1,8 +1,8 @@
 import { withRouter } from 'react-router-dom';
-import DrinkShowcase from '../components/DrinkShowcase';
-import Gallery from '../components/Gallery';
-import OtherProducts from '../components/OtherProducts';
-import Slideshow from '../components/Slideshow';
+import DrinkShowcase from '../components/HomePage/DrinkShowcase';
+import Gallery from '../components/HomePage/Gallery';
+import OtherProducts from '../components/HomePage/OtherProducts';
+import Slideshow from '../components/HomePage/Slideshow';
 
 const Home = () => {
 	return (

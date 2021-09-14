@@ -1,11 +1,11 @@
-@import '../../../utils/variables/colors';
+@import '../../../../utils/variables/colors';
 
 .imagePreview {
 	width: 72px;
 	height: 120px;
 	border: $color-fifth solid 2px;
 	border-radius: 3px;
-	background: url('../../../images/moreDrink5.png');
+	background: url('../../../../images/moreDrink5.png');
 	background-repeat: no-repeat;
 	background-size: 96px;
 	background-position: calc((96px - 72px) / -2) 0;

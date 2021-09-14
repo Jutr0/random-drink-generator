@@ -1,4 +1,4 @@
-import Arrow from '../Arrow';
+import Arrow from '../../Arrow';
 import ImagePreviewer from './ImagePreviewer';
 
 import './style.scss';
