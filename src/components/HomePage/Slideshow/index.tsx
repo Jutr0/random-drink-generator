@@ -5,7 +5,7 @@ import './style.scss';
 
 const Slideshow = () => {
 	return (
-		<section className="slideshow">
+		<section className="slideshow" id="slideshow">
 			<div className="ss-bottomInfo">
 				<div className="ss-left">
 					<ImagePreviewer />
@@ -14,9 +14,11 @@ const Slideshow = () => {
 						<Arrow thickness="thin" />
 					</div>
 				</div>
-				<button className="goDownButton">
-					<Arrow thickness="thin" direction="down" width={32} />
-				</button>
+				<a href="#gallery">
+					<button className="goDownButton">
+						<Arrow thickness="thin" direction="down" width={32} />
+					</button>
+				</a>
 			</div>
 		</section>
 	);

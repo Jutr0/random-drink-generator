@@ -7,7 +7,7 @@ import Photo from './Photo';
 
 const Gallery = () => {
 	return (
-		<section className="gallery">
+		<section className="gallery" id="gallery">
 			<h1 className="galleryHeader">Dbamy o twoje zdrowie</h1>
 			<div className="galleryInfoContainer">
 				<p className="galleryInfo">

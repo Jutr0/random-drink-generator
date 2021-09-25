@@ -9,7 +9,12 @@
 	.thumbnail {
 		width: 80vw;
 		height: 80vw;
+		max-width: 600px;
+		max-height: 600px;
 		box-shadow: 0 0 20px 0px rgba(darken($color-primary, 100), 0.5);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 	.drinkName {
 		margin: 32px 0;
@@ -22,8 +27,7 @@
 		border-bottom: $color-fifth solid 1px;
 	}
 	.drinkInfo {
-		width: 80%;
-
+		width: 20%;
 		ul {
 			list-style-type: none;
 			font-size: 1.5rem;

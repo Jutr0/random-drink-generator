@@ -6,7 +6,7 @@ import './style.scss';
 
 const OtherProducts = () => {
 	return (
-		<section className="op-background">
+		<section className="op-background" id="otherProducts">
 			<span className="op-text">Poznaj nasze inne produkty</span>
 			<div className="op-productsContainer">
 				{OTHER_PRODUCTS_IMAGES.map((step) => (

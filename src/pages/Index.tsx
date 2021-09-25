@@ -8,20 +8,20 @@ import Home from './Home';
 function Index() {
 	return (
 		<main className="appContainer">
-			<Menu />
-
 			<Router>
+				<Menu />
+
 				<Switch>
 					<Route path="/details/:id" exact component={Details} />
 					<Route path="/" exact component={Home} />
 				</Switch>
 			</Router>
-			<Router basename="/random-drink-generator">
+			{/* <Router basename="/random-drink-generator">
 				<Switch>
 					<Route path="/details/:id" exact component={Details} />
 					<Route path="/" exact component={Home} />
 				</Switch>
-			</Router>
+			</Router> */}
 		</main>
 	);
 }

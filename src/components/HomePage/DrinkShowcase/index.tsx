@@ -16,7 +16,7 @@ const DrinkShowcase = () => {
 	};
 
 	return (
-		<section className="ds-background">
+		<section className="ds-background" id="generator">
 			<button className="ds-randomButton" onClick={handleDraw}>
 				Losuj
 			</button>

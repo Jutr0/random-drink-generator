@@ -1,5 +1,7 @@
 import { IIngredient } from '../../../interfaces/drink';
 
+import './style.scss';
+
 const Ingredients = ({ ingredients }: IProps) => {
 	return (
 		<section className="ingredientsSection">

@@ -84,7 +84,7 @@ const parseTableFromIngredientsAndMeasures = (
 		if (ingredients[variable] !== null)
 			tab.push({
 				name: ingredients[variable],
-				measure: measures[variable],
+				measure: measures[variable] || 'some',
 			});
 	}
 	return tab;

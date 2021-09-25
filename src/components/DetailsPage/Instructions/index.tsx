@@ -1,6 +1,8 @@
+import './style.scss';
+
 const Instructions = ({ instructions }: IProps) => {
 	return (
-		<section className="intructionsSection">
+		<section className="instructionsSection">
 			<header>Instructions</header>
 			<p>{instructions}</p>
 		</section>
