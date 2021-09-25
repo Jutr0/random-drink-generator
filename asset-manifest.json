@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/random-drink-generator/static/css/main.ee68728e.chunk.css",
-    "main.js": "/random-drink-generator/static/js/main.097c4030.chunk.js",
-    "main.js.map": "/random-drink-generator/static/js/main.097c4030.chunk.js.map",
+    "main.css": "/random-drink-generator/static/css/main.7524ccfc.chunk.css",
+    "main.js": "/random-drink-generator/static/js/main.e67c9a2c.chunk.js",
+    "main.js.map": "/random-drink-generator/static/js/main.e67c9a2c.chunk.js.map",
     "runtime-main.js": "/random-drink-generator/static/js/runtime-main.3d8750cf.js",
     "runtime-main.js.map": "/random-drink-generator/static/js/runtime-main.3d8750cf.js.map",
     "static/js/2.5e4e4e9b.chunk.js": "/random-drink-generator/static/js/2.5e4e4e9b.chunk.js",
     "static/js/2.5e4e4e9b.chunk.js.map": "/random-drink-generator/static/js/2.5e4e4e9b.chunk.js.map",
     "index.html": "/random-drink-generator/index.html",
-    "static/css/main.ee68728e.chunk.css.map": "/random-drink-generator/static/css/main.ee68728e.chunk.css.map",
+    "static/css/main.7524ccfc.chunk.css.map": "/random-drink-generator/static/css/main.7524ccfc.chunk.css.map",
     "static/js/2.5e4e4e9b.chunk.js.LICENSE.txt": "/random-drink-generator/static/js/2.5e4e4e9b.chunk.js.LICENSE.txt",
     "static/media/gallery1.f372eb80.jpg": "/random-drink-generator/static/media/gallery1.f372eb80.jpg",
     "static/media/gallery2.dd7d9bb6.jpg": "/random-drink-generator/static/media/gallery2.dd7d9bb6.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.3d8750cf.js",
     "static/js/2.5e4e4e9b.chunk.js",
-    "static/css/main.ee68728e.chunk.css",
-    "static/js/main.097c4030.chunk.js"
+    "static/css/main.7524ccfc.chunk.css",
+    "static/js/main.e67c9a2c.chunk.js"
   ]
 }
